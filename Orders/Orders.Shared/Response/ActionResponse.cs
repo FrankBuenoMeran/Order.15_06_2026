@@ -1,4 +1,4 @@
-﻿//Clase Generi
+﻿//Clase Generica
 namespace Orders.Shared.Response;
 
 public class ActionResponse<T>

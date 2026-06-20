@@ -1,8 +1,8 @@
 ﻿using Orders.Shared.Response;
 
-namespace Orders.Backend2.Repositories.Interfaces;
+namespace Orders.Backend2.UnitsOfWork.Interfaces;
 
-public interface IGenericRepository<T> where T : class
+public interface IGenericUnitOfWork<T> where T : class
 {
     Task<ActionResponse<T>> GetAsync(int id);
 
